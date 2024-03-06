@@ -1,0 +1,46 @@
+{"intents": [
+  {
+    "tag": "Intro" ,
+    "patterns": ["Hi","hello","hey","sup","whats up"],
+    "responses": ["Hi {name}, How are you doing?" ,
+                  "Hello, How are you {name} ",
+                  "Hey {name}! Good to hear from you!! ",
+                  "how is your day going {name}?"]
+  },
+  {
+    "tag": "Self_aware",
+    "patterns": ["who am I","What's my name"],
+    "responses": ["Your name is {name} and you are {age} years old"]
+  },
+  {
+    "tag": "positive_mood",
+    "patterns": ["Im good" , "I'm doing great", "good"],
+    "responses": ["Wow {name} so good to hear that"]
+  },
+  {
+    "tag": "appreciate",
+    "patterns": ["thanks", "thank you"],
+    "responses": ["You're welcome {name}! Remember, you're the one doing the hard work.\n I'm just here to support you like your personal cheerleader!" , "No need to thank me ;)\n your growth and progress make my job incredibly rewarding!", "It's all you {name}!\n I'm just the compass guiding you toward your best self." , "I'm just the mirror reflecting your inner strength.\n Keep shining {name}!"]
+  },
+  {
+     "tag": "neutral_mood",
+    "patterns": ["ok", "Not too bad" , "I'm doing fine","Doing okay"],
+    "responses": ["I'm here to support you {name},\n so let's talk about what's on your mind." , "So, how has your week been overall?"]
+  },
+  {
+     "tag": "negative_mood",
+    "patterns": ["bad", "Not good", "worse" ],
+    "responses": ["Sorry to hear that\nlet's talk about what's on your mind"]
+  },
+  {
+      "tag": "Mood_Check",
+      "patterns": ["How are you feeling?", "Tell me about your mood"],
+      "responses": ["I'm just a bot, but I'm here to listen. How are you feeling today?"]
+  },
+  {
+    "tag": "outro",
+    "patterns": ["bye", "see you"],
+    "responses": ["See you soon {name}", "Good to talk with you {name}"]
+  }
+]}
+
